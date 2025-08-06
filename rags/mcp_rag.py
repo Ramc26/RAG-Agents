@@ -28,9 +28,9 @@ def query_mcp_rag(query):
     response = chain.run(context=context, question=query)
     return response
 
-while True:
-    query = input("Enter your query: ")
-    if query.lower() == "exit":
-        break
-    response = query_mcp_rag(query)
-    print(response)
+# while True:
+#     query = input("Enter your query: ")
+#     if query.lower() == "exit":
+#         break
+#     response = query_mcp_rag(query)
+#     print(response)
